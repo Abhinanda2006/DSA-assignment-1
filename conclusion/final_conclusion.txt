@@ -1,0 +1,11 @@
+FINAL CONCLUSION
+
+For a hospital that continuously inserts patients and needs
+the highest-priority patient immediately, Max Heap / Priority
+Queue is the most suitable approach.
+
+Insertion takes O(log n), while the highest-priority patient
+can be accessed in O(1) time.
+
+Therefore, Max Heap is suitable for continuous priority-based
+hospital patient management.
