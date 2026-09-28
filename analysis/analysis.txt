@@ -1,0 +1,50 @@
+COMPLEXITY ANALYSIS
+
+1. MAX HEAP
+
+Heap height:
+For 7 elements,
+
+Height = floor(log2(7)) = 2
+
+Insertion:
+O(log n)
+
+Access highest priority:
+O(1)
+
+Deletion of highest priority:
+O(log n)
+
+
+2. HEAP SORT
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n log n)
+
+Extra Space: O(1)
+
+
+3. QUICK SORT
+
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n^2)
+
+Extra Space:
+O(log n) average case due to recursion.
+
+
+COMPARISON TABLE
+
+Factor              Max Heap       Heap Sort       Quick Sort
+--------------------------------------------------------------
+Purpose             Priority Queue Sorting         Sorting
+Height              2              2 initially     No heap
+Average Time        O(log n)       O(n log n)      O(n log n)
+Worst Time          O(log n)       O(n log n)      O(n^2)
+Extra Space         O(n)           O(1)             O(log n)
+Highest Priority    O(1)           Not direct       Not direct
+
+
